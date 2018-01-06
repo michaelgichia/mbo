@@ -7,7 +7,8 @@
 import React, { PureComponent } from 'react';
 import { push } from 'react-router-redux';
 import { connect } from 'react-redux';
-import { Menu, Icon } from 'antd';
+import { Icon } from 'antd';
+import Menu from 'antd/lib/menu';
 import SearchForm from 'containers/SearchForm';
 // Logo
 import mboLogo from '!file-loader?name=[mboLogo].[ext]!./images/mboLogo.png';
